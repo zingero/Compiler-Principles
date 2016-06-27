@@ -1,0 +1,90 @@
+/* scheme.lib
+ * Support for creating & manipulating Scheme objects in assembly
+ *
+ * Programmer: Mayer Goldberg, 2010
+ */
+
+#include "lib/scheme/types.inc"
+#include "lib/scheme/make_sob_void.asm"
+#include "lib/scheme/make_sob_nil.asm"
+#include "lib/scheme/make_sob_bool.asm"
+#include "lib/scheme/make_sob_char.asm"
+#include "lib/scheme/make_sob_integer.asm"
+#include "lib/scheme/make_sob_fraction.asm"
+#include "lib/scheme/make_sob_pair.asm"
+#include "lib/scheme/make_sob_closure.asm"
+#include "lib/scheme/make_sob_vector.asm"
+#include "lib/scheme/make_sob_string.asm"
+#include "lib/scheme/make_sob_symbol.asm"
+#include "lib/scheme/is_sob_void.asm"
+#include "lib/scheme/is_sob_nil.asm"
+#include "lib/scheme/is_sob_bool.asm"
+#include "lib/scheme/is_sob_char.asm"
+#include "lib/scheme/is_sob_integer.asm"
+#include "lib/scheme/is_sob_pair.asm"
+#include "lib/scheme/write_sob_void.asm"
+#include "lib/scheme/write_sob_nil.asm"
+#include "lib/scheme/write_sob_bool.asm"
+#include "lib/scheme/write_sob_char.asm"
+#include "lib/scheme/write_sob_integer.asm"
+#include "lib/scheme/write_sob_fraction.asm"
+#include "lib/scheme/write_sob_pair.asm"
+#include "lib/scheme/write_sob_closure.asm"
+#include "lib/scheme/write_sob_string.asm"
+#include "lib/scheme/write_sob_vector.asm"
+#include "lib/scheme/write_sob.asm"
+#include "lib/scheme/write_sob_symbol.asm"
+
+/*---------------------------------------------*/
+
+#include "lib/scheme/rts/rts_car.asm"  // v
+#include "lib/scheme/rts/rts_cdr.asm"
+/*#include "lib/scheme/rts/rts_append.asm"
+#include "lib/scheme/rts/rts_apply.asm"
+#include "lib/scheme/rts/rts_less.asm"
+#include "lib/scheme/rts/rts_equal.asm"
+#include "lib/scheme/rts/rts_greater.asm"
+#include "lib/scheme/rts/rts_plus.asm"
+#include "lib/scheme/rts/rts_div.asm"
+#include "lib/scheme/rts/rts_times.asm"
+#include "lib/scheme/rts/rts_minus.asm"
+#include "lib/scheme/rts/rts_isboolean.asm"
+#include "lib/scheme/rts/rts_char_to_int.asm"
+#include "lib/scheme/rts/rts_ischar.asm"
+#include "lib/scheme/rts/rts_denom.asm"
+#include "lib/scheme/rts/rts_isequal.asm"
+#include "lib/scheme/rts/rts_isinteger.asm"
+#include "lib/scheme/rts/rts_int_to_char.asm"
+#include "lib/scheme/rts/rts_list.asm"
+#include "lib/scheme/rts/rts_make_string.asm"
+#include "lib/scheme/rts/rts_make_vector.asm"
+#include "lib/scheme/rts/rts_map.asm"
+#include "lib/scheme/rts/rts_not.asm"
+#include "lib/scheme/rts/rts_isnull.asm"
+#include "lib/scheme/rts/rts_isnumber.asm"
+#include "lib/scheme/rts/rts_isnumerator.asm"
+#include "lib/scheme/rts/rts_ispair.asm"
+#include "lib/scheme/rts/rts_isprocedure.asm"
+#include "lib/scheme/rts/rts_isreational.asm"
+#include "lib/scheme/rts/rts_remainder.asm"
+#include "lib/scheme/rts/rts_set_car_bang.asm"
+#include "lib/scheme/rts/rts_set_cdr_bang.asm"
+#include "lib/scheme/rts/rts_string_length.asm"
+#include "lib/scheme/rts/rts_string_ref.asm"
+#include "lib/scheme/rts/rts_string_set.asm"
+#include "lib/scheme/rts/rts_string_to_symbol.asm"
+#include "lib/scheme/rts/rts_isstring.asm"
+#include "lib/scheme/rts/rts_issymbol.asm"
+#include "lib/scheme/rts/rts_symbol_to_string.asm"
+#include "lib/scheme/rts/rts_vector.asm"
+#include "lib/scheme/rts/rts_vector_length.asm"
+#include "lib/scheme/rts/rts_vector_ref.asm"
+#include "lib/scheme/rts/rts_vector_set.asm"
+#include "lib/scheme/rts/rts_isvector.asm"
+#include "lib/scheme/rts/rts_iszero.asm"*/
+
+
+
+
+
+
